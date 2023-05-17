@@ -18,7 +18,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Saiham!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-6xl font-cursive">Hi, I&#39;m Saiham!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
@@ -27,27 +27,23 @@ const HeroSection = () => {
             based in London, UK. Working towards creating end-to-end scalable and maintainable ML solutions for complex Business Intelligence requirements.
           </p>
           <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            to="contact"
+            className="text-neutral-100 font-semibold lg:ms-20 px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            Experience
+            Contact
           </Link>
-          <Link
-            to="projects"
+          <a
+            href="Saiham-Rahman-CV.docx"
+            download
             className="text-neutral-100 font-semibold px-6 py-3 ml-5 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
           >
-            Projects
-          </Link>
+            Download CV 📄
+          </a>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

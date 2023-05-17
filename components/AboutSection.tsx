@@ -2,18 +2,27 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Java" },
+  { skill: 'SQL' },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-]
+  { skill: "BitBucket" },
+  { skill: 'JIRA' },
+  { skill: 'MS365 admin' },
+  { skill: 'Confluence' },
+  { skill: 'bash' },
+  { skill: 'PyTorch' },
+  { skill: 'Pandas' },
+  { skill: 'Linux' },
+  { skill: 'Docker' },
+  { skill: 'Kubernetes' },
+  { skill: 'MLflow' },
+  { skill: 'Grafana' },
+  { skill: 'AWS' },
+  { skill: 'Terraform' },
+  { skill: 'Azure' },
+];
 
 const AboutSection = () => {
   return (
@@ -40,7 +49,7 @@ const AboutSection = () => {
             <p>
               I graduated from Queen Mary University of London in 2022
               with a MSc in Artificial Intelligence and have been working in the
-              field since 2019.
+              tech industry since 2019.
             </p>
             <br />
             <p>

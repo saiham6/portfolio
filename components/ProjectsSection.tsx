@@ -6,12 +6,45 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Cloud Resume Challenge [Ongoing]",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    // image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "The Cloud Resume Challenge is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career as an AWS Cloud Engineer. The project was first published by Forrest Brazeal. I will be using AWS services to build this project.",
+    image: "/cmsoon.jpeg",
+    github: "https://github.com/saiham6",
+    link: "/coming-soon",
+  },
+  {
+    name: "Serverless Web Application On AWS [S3, Lambda, SQS, DynamoDB, and API Gateway]",
+    description: "An AWS hands-on-lab project that uses AWS services such as [S3, Lambda, SQS, DynamoDB, and API Gateway] to build a serverless web application.",
+    image: "/cmsoon.jpeg",
+    github: "https://github.com/saiham6",
+    link: "/coming-soon",
+  },
+  {
+    name: "Bootstrapping an Amazon EC2 Instance Using User-data to Run a Python Web App",
+    description:
+      "•	Deployed a Python web application to an EC2 instance running Nginx and uWSGI, using a CI/CD Pipeline created with Amazon CDK.",
+    image: "/cmsoon.jpeg",
+    github: "https://github.com/saiham6",
+    link: "/coming-soon",
+  },
+
+  {
+    name: "Build a dev environment using AWS and Terraform",
+    description:
+      "•	Using VS Code and applying Terraform basics to deploy AWS resources (VPC, IGW, route table, security groups) and an EC2 instance that can SSH into to have an own redeployable environment.",
+    image: "/cmsoon.jpeg",
+    github: "https://github.com/saiham6",
+    link: "/coming-soon",
+  },
+
+  {
+    name: "Coming soon",
+    description:
+      "Coming soon",
+    image: "/cmsoon.jpeg",
+    github: "https://github.com/saiham6",
+    link: "/coming-soon",
   },
 ]
 
