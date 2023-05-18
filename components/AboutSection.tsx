@@ -39,7 +39,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Saiham and I am a{" "}
+              I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> machine learning engineer
@@ -54,7 +54,7 @@ const AboutSection = () => {
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From reading, playing sports, traveling, to writing blogs,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
