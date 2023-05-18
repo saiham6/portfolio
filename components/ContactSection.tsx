@@ -18,11 +18,11 @@ export default function ContactSection() {
                         <div className="" >
                             <h2 className='text-3xl font-bold'>Saiham Rahman</h2>
                             <br />
-                            <p className=' text-xl'>Machine Learning Engineer</p>
+                            <p className=' text-xl text-gray-500'>Machine Learning Engineer</p>
                             <br />
-                            <p className=' text-xl'>I am available for full-time positions.</p>
+                            <p className=' text-xl text-gray-500'>I am available for full-time positions.</p>
                             <br />
-                            <p className=' text-xl'>CONNECT WITH ME</p>
+                            <p className=' text-xl text-gray-500'>CONNECT WITH ME</p>
                             <div className=' flex flex-row items-center justify-start space-x-9 mb-1 mt-10'>
                                 <a
                                     href="mailto:saiham.rahman@outlook.com"

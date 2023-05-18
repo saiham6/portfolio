@@ -43,7 +43,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold font-cursive">Saiham Rahman</h2>
+                <h2 className="text-2xl font-bold font-myfont">Saiham Rahman</h2>
               </div>
             </Link>
             <div className="md:hidden">
@@ -63,7 +63,7 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <div className="items-center cursor-pointer justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link

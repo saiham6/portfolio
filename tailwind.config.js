@@ -13,7 +13,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        cursive: ['Dancing Script', 'cursive'],
+        myfont:
+          [ 'var(--font-noto-sans)','-apple-system', 'system-ui', 'sans-serif']
       },
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
       animation: {
