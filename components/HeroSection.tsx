@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => {
   return (
@@ -19,13 +20,27 @@ const HeroSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-6xl">Hi, I&#39;m Saiham!</h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl italic text-gray-500">
+          <div className="text-lg mt-4 mb-6 md:text-2xl italic text-gray-500">
             I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
-              Machine Learning Engineer{" "}
+            <span id='anime' className="font-semibold text-teal-600">
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter.typeString('Machine Learning Engineer')
+                    .pauseFor(4500)
+                    .deleteAll()
+                    .typeString('Data Scientist')
+                    .pauseFor(4500)
+                    .changeDelay(10)
+                    .start();
+                }}
+                options={{
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </span>
             based in London, UK. Working towards creating end-to-end scalable and maintainable ML solutions for complex Business Intelligence requirements.
-          </p>
+          </div>
           <Link
             to="contact"
             className="text-neutral-100 font-light hover:font-semibold cursor-pointer lg:ms-20 px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
