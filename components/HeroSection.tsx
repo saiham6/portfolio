@@ -2,7 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+// import { HiArrowDown } from "react-icons/hi"
 import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => {
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+      {/* <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"
           activeClass="active"
@@ -71,7 +71,7 @@ const HeroSection = () => {
           duration={500}
         >
           <HiArrowDown size={35} className="cursor-pointer animate-bounce" />
-        </Link>
+        </Link> */}
       </div>
     </section>
   )
