@@ -53,7 +53,7 @@ const HeroSection = () => {
             Contact
           </Link>
           <a
-            href="Saiham-Rahman-CV.docx"
+            href="Saiham-Rahman-CV.pdf"
             download
             className="text-neutral-100 font-light hover:font-semibold cursor-pointer ms-5 px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
           >
@@ -71,8 +71,8 @@ const HeroSection = () => {
           duration={500}
         >
           <HiArrowDown size={35} className="cursor-pointer animate-bounce" />
-        </Link> */}
-      </div>
+        </Link>
+      </div> */}
     </section>
   )
 }
