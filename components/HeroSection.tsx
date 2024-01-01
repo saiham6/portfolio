@@ -2,7 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
-// import { HiArrowDown } from "react-icons/hi"
+import { HiArrowDown } from "react-icons/hi"
 import Typewriter from 'typewriter-effect';
 
 const HeroSection = () => {
@@ -53,7 +53,7 @@ const HeroSection = () => {
             Contact
           </Link>
           <a
-            href="Saiham-Rahman-CV.pdf"
+            href="https://saiham-rahman-portfolio.s3.eu-west-1.amazonaws.com/Resume/Website/Saiham-Rahman-CV.pdf"
             download
             className="text-neutral-100 font-light hover:font-semibold cursor-pointer ms-5 px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
           >
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-      {/* <div className="flex flex-row items-center text-center justify-center ">
+      <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"
           activeClass="active"
@@ -72,7 +72,7 @@ const HeroSection = () => {
         >
           <HiArrowDown size={35} className="cursor-pointer animate-bounce" />
         </Link>
-      </div> */}
+      </div>
     </section>
   )
 }
